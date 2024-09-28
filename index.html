@@ -110,13 +110,15 @@
         <p><i class="fa-solid fa-envelope"></i>prabat200@gmail.com</p>
         <p><i class="fa-solid fa-location-dot"></i>Thanjavur</p>
     </div>
-    <div class="mail">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-        <textarea rows="5" cols="60" placeholder="Message"></textarea>
-        </textarea>
-        <button>Submit</button>
-    </div>
+ <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="mail">
+            <input type="hidden" name="access_key" value="fc50f1b4-e562-4e8d-9f8e-789b81f8a6f4">
+            <input type="text" id="name" name="name" placeholder="Full Name">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <textarea rows="5" id="message" name="message" cols="60" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
     
 </div>
 <footer>
