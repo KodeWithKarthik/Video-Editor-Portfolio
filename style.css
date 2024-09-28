@@ -6,6 +6,9 @@
     font-family: montserrat;
     box-sizing: border-box;
 }
+body{
+    background-color:black;
+}
 .navbar{
     color:whitesmoke;
     display: flex;
