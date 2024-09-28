@@ -6,6 +6,7 @@
     <title>PRABA</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
 <nav class="navbar">
@@ -18,10 +19,10 @@
     <div class="option">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" id="about">About Me</a></li>
+            <li><a href="#" id="services">Services</a></li>
+            <li><a href="#" id="work">Work</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
             <button class="login">LOGIN</button>
         </ul>
     </div>
@@ -31,7 +32,7 @@
     <h1>Turning Videos to a <br>Cinematic Masterpiece</h1>
     <button>Contact Me</button>
 </div>
-<div class="bio">
+<div class="bio" id="bio">
     <div class="part1">
         <h1>I’m Praba, a <br>professional video<br> editor & film maker</h1>
     </div>
@@ -59,7 +60,7 @@
         </div>
     </div>
 </div>
-<div class="help">
+<div class="help" id="help">
     <h1>I can help you with</h1>
     <div class="trio">
         <div class="one">
@@ -79,7 +80,7 @@
         </div>
     </div>
 </div>
-<div class="work">
+<div class="work" id="works">
     <h1>Recent Work</h1>
     <div class="grid">
         <div class="box">
@@ -107,11 +108,11 @@
         <h1>Let’s work together​</h1>
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid earum in assumenda sint tenetur illum error delectus fugiat eum libero!</P>
         <p><i class="fa-solid fa-phone"></i>+91 7867983230</p>
-        <p><i class="fa-solid fa-envelope"></i>capprabuman173@gmail.com</p>
+        <p><i class="fa-solid fa-envelope"></i>prabat200@gmail.com</p>
         <p><i class="fa-solid fa-location-dot"></i>Thanjavur</p>
     </div>
- <form action="https://api.web3forms.com/submit" method="POST">
-        <div class="mail">
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="mail" id="mail">
             <input type="hidden" name="access_key" value="a15e12e7-2c22-4209-b7ef-77fd9f0c100c">
             <input type="text" id="name" name="name" placeholder="Full Name">
             <input type="email" id="email" name="email" placeholder="Email Address">
@@ -125,6 +126,6 @@
     <hr>
     <p>Copyright © 2024 Video Editor | Created By Karthikeyan</p>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
