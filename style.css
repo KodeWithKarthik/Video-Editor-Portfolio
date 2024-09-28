@@ -288,4 +288,10 @@ footer p{
 background-color: transparent;
 color: whitesmoke;
 }
+#name,#email,#message{
+    color:white;
+}
+.left p i{
+    margin-right: 20px;
+}
 
