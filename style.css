@@ -8,6 +8,7 @@
 }
 body{
     background-color:black;
+    border:2px solid red;
 }
 .navbar{
     color:whitesmoke;
