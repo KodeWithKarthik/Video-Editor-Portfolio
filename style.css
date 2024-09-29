@@ -47,13 +47,15 @@ a{
     border: 2px solid whitesmoke;
 }
 .bg-video {
-    position: absolute;  /* Ensure it stays in the background */
+    position: fixed;          /* Keeps the video fixed in the background */
     top: 0;
     left: 0;
-    width: 100%;        /* Full width of the viewport */
-    height: 100vh;      /* Full height of the viewport */
-    z-index: -1;        /* Send the video behind other elements */
-    object-fit: cover;  /* Maintain aspect ratio and cover the entire area */
+    width: 100vw;             /* Full width of the viewport */
+    height: 100vh;            /* Full height of the viewport */
+    z-index: -1;              /* Send the video behind other elements */
+    object-fit: cover;        /* Maintain aspect ratio and cover the entire area */
+    object-position: center;  /* Center the video */
+    pointer-events: none;     /* Prevent interaction with the video */
 }
 
 a:hover{
