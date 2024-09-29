@@ -8,6 +8,7 @@
 }
 body{
     background-color:black;
+    border:2px solid red;
   
 }
 .navbar{
@@ -15,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-      border:2px solid red;
+      
 }
 .option ul li ,.login{
     display:inline;
